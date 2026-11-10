@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ashwani Kumar weds Deepti · Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&family=Poppins:wght@300;400;500&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#3a0510;--bg2:#1d0208;--gold:#e9c46a;--gold2:#b8862b;--cream:#fff4dc;--card:rgba(255,236,200,.08);--line:rgba(233,196,106,.35);--rose:#c1121f;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#3a0510;--bg2:#1d0208;--cream:#fff4dc}}
+:root[data-theme="dark"]{--bg:#3a0510;--bg2:#1d0208;--cream:#fff4dc}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0}
+body{background:radial-gradient(ellipse at top,var(--bg),var(--bg2) 75%) fixed;color:var(--cream);font-family:'Poppins',system-ui,sans-serif;font-weight:300;overflow-x:hidden;line-height:1.6}
+.petals{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.petal{position:absolute;top:-30px;width:12px;height:16px;border-radius:70% 0 70% 0;background:linear-gradient(135deg,#ff9f1c,#e85d04);opacity:.7;animation:fall linear infinite}
+.petal.r{background:linear-gradient(135deg,#e5383b,#a4161a)}
+@keyframes fall{to{transform:translateY(110vh) rotate(540deg) translateX(40px)}}
+section{position:relative;z-index:1;max-width:760px;margin:auto;padding:64px 22px;text-align:center}
+.gold{background:linear-gradient(100deg,#b8862b,#ffe9a3 40%,#e9c46a 60%,#b8862b);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px}
+.arch{width:min(86vw,380px);border:1.5px solid var(--line);border-radius:190px 190px 24px 24px;padding:56px 22px 34px;background:linear-gradient(180deg,rgba(233,196,106,.14),rgba(233,196,106,.02));box-shadow:0 0 60px rgba(233,196,106,.18),inset 0 0 40px rgba(0,0,0,.35);position:relative}
+.arch::before{content:"";position:absolute;inset:8px;border:1px dashed var(--line);border-radius:182px 182px 18px 18px;pointer-events:none}
+.om{font-size:44px;line-height:1;margin-bottom:6px}
+.sh{font-family:'Tiro Devanagari Hindi',serif;font-size:15px;color:var(--gold);line-height:1.7}
+.tiny{letter-spacing:.3em;font-size:10px;text-transform:uppercase;color:var(--gold)}
+.script{font-family:'Great Vibes','Brush Script MT',cursive;font-size:clamp(52px,15vw,84px);line-height:1}
+.serif{font-family:'Cormorant Garamond',Georgia,serif}
+.names{margin:10px 0}
+.weds{font-family:'Great Vibes',cursive;font-size:34px;color:var(--gold);margin:-4px 0}
+.hint{margin-top:16px;font-size:11px;letter-spacing:.25em;color:var(--gold);animation:bob 2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(8px)}}
+h2{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;letter-spacing:.04em;margin-bottom:6px}
+.rule{width:120px;height:1px;margin:14px auto 26px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.glass{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px 18px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.fam{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fam .tag{display:inline-block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;padding:3px 12px;border-radius:99px;background:var(--gold);color:#3a0510;font-weight:500;margin-bottom:10px}
+.fam p{font-family:'Cormorant Garamond',serif;font-size:19px;line-height:1.35}
+.fam small{display:block;margin-top:10px;font-size:11.5px;opacity:.75}
+.count{display:flex;gap:10px;justify-content:center;margin-top:10px}
+.count div{width:74px;padding:14px 0;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.count b{display:block;font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:700;color:var(--gold)}
+.count span{font-size:9px;letter-spacing:.2em;text-transform:uppercase;opacity:.75}
+.tl{position:relative;text-align:left;padding-left:34px}
+.tl::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--gold),transparent)}
+.ev{position:relative;margin-bottom:18px}
+.ev::before{content:"";position:absolute;left:-30px;top:26px;width:14px;height:14px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px rgba(233,196,106,.2),0 0 18px var(--gold)}
+.ev .ic{font-size:30px}
+.ev h3{font-family:'Cormorant Garamond',serif;font-size:24px;letter-spacing:.06em;color:var(--gold);margin:2px 0}
+.ev .d{font-size:14px}.ev .t{font-size:13px;opacity:.8}
+.row{display:flex;gap:14px;align-items:center}
+.pill{display:inline-block;margin-top:12px;padding:12px 26px;border-radius:99px;border:1px solid var(--gold);color:var(--cream);text-decoration:none;font-size:13px;letter-spacing:.12em}
+.pill.fill{background:linear-gradient(100deg,#b8862b,#e9c46a);color:#3a0510;font-weight:500;border:0}
+.kids{display:flex;gap:10px;justify-content:center;font-size:44px}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .9s ease,transform .9s ease}
+.reveal.in{opacity:1;transform:none}
+footer{position:relative;z-index:1;text-align:center;padding:30px 20px 60px;font-size:12px;opacity:.7}
+.mus{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:5;display:flex;align-items:center;gap:8px;padding:11px 18px;border-radius:99px;border:1px solid var(--gold);background:rgba(29,2,8,.75);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--cream);font:400 12px 'Poppins',system-ui,sans-serif;letter-spacing:.1em;cursor:pointer;animation:pulse 2.4s ease-in-out infinite}
+.mus.on{animation:none;background:linear-gradient(100deg,#b8862b,#e9c46a);color:#3a0510}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(233,196,106,.18)}}
+@media (prefers-reduced-motion:reduce){.mus{animation:none}.petal,.gold,.hint{animation:none}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="petals" id="petals" aria-hidden="true"></div>
+<button class="mus" id="mus" type="button" aria-label="Toggle background music">🎵 <span id="mlbl">Play music</span></button>
+
+<section class="hero">
+  <div class="tiny">|| Shree Ganeshaya Namah ||</div>
+  <div class="arch">
+    <div class="om gold">🕉</div>
+    <p class="sh">वक्रतुंड महाकाय सूर्यकोटि समप्रभ ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥</p>
+    <p class="tiny" style="margin-top:18px">With the blessings of the Almighty</p>
+    <div class="names">
+      <div class="script gold">Ashwani</div>
+      <div class="weds">weds</div>
+      <div class="script gold">Deepti</div>
+    </div>
+    <p class="serif" style="font-size:18px;letter-spacing:.12em">24 · 25 · 26 NOVEMBER 2026</p>
+    <p class="tiny" style="margin-top:6px">Bareilly · Uttar Pradesh</p>
+  </div>
+  <div class="hint">SCROLL ↓</div>
+</section>
+
+<section class="reveal">
+  <h2 class="gold">You are invited</h2><div class="rule"></div>
+  <p class="serif" style="font-size:21px;max-width:520px;margin:auto">With the blessings of the Almighty and the elders, we are delighted to invite you to the wedding ceremony of our beloved son.</p>
+  <div class="fam" style="margin-top:28px">
+    <div class="glass"><span class="tag">Groom</span><p><b>Ashwani Kumar</b></p><p style="margin-top:8px">Son of<br>Late Smt. Nattho Devi<br>&amp; Shri Vijay Pal</p><small>🏠 House No. 150, Range Colony, Bhartaul, Bareilly</small></div>
+    <div class="glass"><span class="tag">Bride</span><p><b>Deepti</b></p><p style="margin-top:8px">Daughter of<br>Smt. Omwati Devi<br>&amp; Shri Bijender Singh</p><small>🏠 Village Talwar, Bulandshahar, Uttar Pradesh</small></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <h2 class="gold">Countdown to the Mandap</h2><div class="rule"></div>
+  <div class="count" id="count"><div><b id="d">--</b><span>Days</span></div><div><b id="h">--</b><span>Hours</span></div><div><b id="m">--</b><span>Mins</span></div><div><b id="s">--</b><span>Secs</span></div></div>
+</section>
+
+<section>
+  <h2 class="gold reveal">Wedding Events</h2><div class="rule"></div>
+  <div class="tl">
+    <div class="ev reveal glass"><div class="ic">🪔</div><h3>MANDAP</h3><div class="d">Tuesday, 24 November 2026</div><div class="t">🕔 5:00 PM</div></div>
+    <div class="ev reveal glass"><div class="ic">🐎</div><h3>BARAAT PRASTHAN</h3><div class="d">Wednesday, 25 November 2026</div><div class="t">🕖 7:00 PM</div></div>
+    <div class="ev reveal glass"><div class="ic">💍</div><h3>WEDDING &amp; RECEPTION</h3><div class="d">Wednesday, 25 November 2026</div><div class="t">🕗 8:00 PM onwards</div></div>
+    <div class="ev reveal glass"><div class="ic">🏺</div><h3>BRIDE’S ARRIVAL</h3><div class="d">Thursday, 26 November 2026</div><div class="t">🌅 Early morning</div></div>
+  </div>
+</section>
+
+<section class="reveal">
+  <h2 class="gold">Venue</h2><div class="rule"></div>
+  <div class="glass">
+    <div style="font-size:34px">🏰</div>
+    <h3 class="serif" style="font-size:28px;color:var(--gold)">Hotel The Grand Vikrant</h3>
+    <p style="font-size:14px;margin-top:6px">Pilibhit Bypass Road, Opp. Rohilkhand University,<br>Bareilly – 243006, Uttar Pradesh</p>
+    <a class="pill fill" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+The+Grand+Vikrant+Pilibhit+Bypass+Road+Bareilly">📍 Open in Maps</a>
+  </div>
+</section>
+
+<section class="reveal">
+  <div class="glass">
+    <div class="kids">👧🏻 ⭐ 👦🏻</div>
+    <h3 class="serif gold" style="font-size:26px;margin-top:6px"><i>Ghar ke hain hum chhote star</i></h3>
+    <p style="font-size:14px;margin:8px 0">Hamare pyaare Chachu ki shaadi mein, rahega aap sabka intezaar! ❤️</p>
+    <p class="serif" style="font-size:20px;color:var(--gold)">Samaira &amp; Samarth</p>
+  </div>
+</section>
+
+<section class="reveal">
+  <h2 class="gold">Hosted by</h2><div class="rule"></div>
+  <p class="serif" style="font-size:26px"><b>Vijay Pal</b></p>
+  <p style="font-size:14px">House No. 150, Range Colony, Bhartaul,<br>Bareilly, Uttar Pradesh</p>
+  <p class="tiny" style="margin-top:26px">Darshan Abhilashi</p>
+  <p class="serif" style="font-size:18px;margin-top:6px">Rajpal, Dharampal, Vedpal, Prempal, Anoop Kumar, Sunil Kumar, Rahul<br>and Families &amp; Friends</p>
+  <a class="pill fill" style="margin-top:28px" target="_blank" rel="noopener" href="https://wa.me/919267768229?text=Namaste%21%20We%20will%20be%20joining%20the%20wedding%20celebrations%20of%20Ashwani%20%26%20Deepti.">💬 Confirm on WhatsApp</a>
+  <a class="pill" href="tel:+919267768229">📞 9267768229</a>
+</section>
+
+<footer>With love and blessings · Ashwani &amp; Deepti · 2026</footer>
+
+<script>
+(function(){
+var box=document.getElementById('petals');
+for(var i=0;i<22;i++){var p=document.createElement('i');p.className='petal'+(i%3?'':' r');
+p.style.left=Math.random()*100+'%';p.style.animationDuration=(9+Math.random()*10)+'s';p.style.animationDelay=(-Math.random()*18)+'s';
+p.style.transform='scale('+(.6+Math.random()*.9)+')';box.appendChild(p);}
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+var target=new Date('2026-11-24T17:00:00+05:30').getTime();
+function tick(){var t=Math.max(0,target-Date.now()),x=function(id,v){document.getElementById(id).textContent=String(v).padStart(2,'0')};
+x('d',Math.floor(t/864e5));x('h',Math.floor(t%864e5/36e5));x('m',Math.floor(t%36e5/6e4));x('s',Math.floor(t%6e4/1e3));}
+tick();setInterval(tick,1000);
+/* Original instrumental: tanpura drone + sitar-style plucks in a Yaman-like scale */
+var ac,master,on=false,timer,idx=4,n=0,sc=[293.66,329.63,369.99,415.3,440,493.88,554.37,587.33,659.25];
+function setup(){var C=window.AudioContext||window.webkitAudioContext;if(!C)return false;ac=new C();master=ac.createGain();master.gain.value=.9;
+var dl=ac.createDelay(1),fb=ac.createGain();dl.delayTime.value=.34;fb.gain.value=.38;master.connect(ac.destination);master.connect(dl);dl.connect(fb);fb.connect(dl);dl.connect(ac.destination);
+[[146.83,.05],[220,.04],[293.66,.02],[146.83*1.003,.04]].forEach(function(d){var o=ac.createOscillator(),g=ac.createGain();o.type='triangle';o.frequency.value=d[0];g.gain.value=d[1];o.connect(g);g.connect(master);o.start();});return true;}
+function pluck(f,v){var t=ac.currentTime,o=ac.createOscillator(),o2=ac.createOscillator(),g=ac.createGain(),lp=ac.createBiquadFilter();
+o.type='sawtooth';o2.type='triangle';o.frequency.value=f;o2.frequency.value=f*2;lp.type='lowpass';lp.frequency.setValueAtTime(3000,t);lp.frequency.exponentialRampToValueAtTime(450,t+1.2);
+g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+1.6);
+o.connect(lp);o2.connect(lp);lp.connect(g);g.connect(master);o.start(t);o2.start(t);o.stop(t+1.7);o2.stop(t+1.7);}
+function step(){if(!on)return;n++;var m=[-2,-1,-1,0,1,1,2],r=Math.random();
+if(n%8===0)idx=4;else idx=Math.max(0,Math.min(8,idx+m[Math.floor(Math.random()*m.length)]));
+if(r>.15){pluck(sc[idx],.07);if(r>.7)setTimeout(function(){if(on)pluck(sc[Math.min(8,idx+1)],.045);},210);}
+if(n%4===0)pluck(146.83,.1);
+timer=setTimeout(step,r<.2?560:420);}
+/* Romantic melody: original piano/strings-style theme in D major (replaces the generated raga above) */
+var BL=3,BT=BL/4,t0=0;
+var CH=[[50,[62,66,69]],[49,[64,69,73]],[47,[62,66,71]],[43,[62,67,71]],[50,[62,66,69]],[45,[61,64,69]],[43,[62,67,71]],[45,[61,64,69]]];
+var ML=[[[0,78,2],[2,76,1],[3,74,1]],[[0,73,1.5],[1.5,74,.5],[2,76,2]],[[0,78,1.5],[1.5,76,.5],[2,74,1],[3,71,1]],[[0,74,2],[2,76,1],[3,74,1]],[[0,78,1],[1,81,2],[3,78,1]],[[0,76,1.5],[1.5,73,.5],[2,76,2]],[[0,74,1],[1,76,1],[2,78,1],[3,74,1]],[[0,73,2],[2,71,1],[3,73,1]]];
+function hz(m){return 440*Math.pow(2,(m-69)/12);}
+function tone(m,t,d,v,ty,a,cut){var o=ac.createOscillator(),g=ac.createGain(),lp=ac.createBiquadFilter();o.type=ty;o.frequency.value=hz(m);lp.type='lowpass';lp.frequency.value=cut;
+g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(v,t+a);g.gain.setValueAtTime(v,t+Math.max(a,d-.25));g.gain.exponentialRampToValueAtTime(.0001,t+d+.5);
+o.connect(lp);lp.connect(g);g.connect(master);o.start(t);o.stop(t+d+.6);}
+function setup(){var C=window.AudioContext||window.webkitAudioContext;if(!C)return false;ac=new C();master=ac.createGain();master.gain.value=.85;
+var dl=ac.createDelay(1),fb=ac.createGain(),wet=ac.createGain();dl.delayTime.value=.46;fb.gain.value=.34;wet.gain.value=.3;
+master.connect(ac.destination);master.connect(dl);dl.connect(fb);fb.connect(dl);dl.connect(wet);wet.connect(ac.destination);return true;}
+function sched(k,t){var c=CH[k],a=[0,1,2,1,0,2,1,2],i;tone(c[0],t,BL,.16,'sine',.05,600);
+c[1].forEach(function(m){tone(m-12,t,BL,.035,'triangle',.9,1400);});
+for(i=0;i<8;i++){tone(c[1][a[i]],t+i*BT*.5,.9,.03,'triangle',.01,2200);}
+ML[k].forEach(function(x){var s=t+x[0]*BT,d=x[2]*BT;tone(x[1],s,d,.09,'sine',.05,3500);tone(x[1],s,d,.03,'triangle',.05,2500);tone(x[1]+12,s,d,.012,'sine',.05,3000);});}
+function step(){if(!on)return;if(!t0||t0<ac.currentTime)t0=ac.currentTime+.15;sched(n%8,t0);n++;t0+=BL;timer=setTimeout(step,Math.max(200,(t0-ac.currentTime-.6)*1000));}
+var b=document.getElementById('mus'),lb=document.getElementById('mlbl');
+b.addEventListener('click',function(){try{if(!ac&&!setup())return;if(!on){ac.resume();on=true;b.classList.add('on');lb.textContent='Pause music';step();}else{on=false;clearTimeout(timer);ac.suspend();b.classList.remove('on');lb.textContent='Play music';}}catch(e){}});
+})();
+</script>
+</body>
+</html>
